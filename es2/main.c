@@ -1,10 +1,35 @@
-main:
-  chiedi numero
+#include <stdio.h>
+
+int main (){
+  int intero;
   
-  se numero < 2
-    daicazzo
+  puts("Inserisci un numero intero");
+  scanf("%d", &intero);
   
-  i = 2
+  if (intero < 2){
+    puts("Numero non valido");
+    exit -1;
+  }
+  
+  int i=2; //contatore
+  int primo=1; 
+  
+  while (i<primo){
+    if (primo%i == 0){
+      puts("Il numero non è primo");
+      break;
+    } else
+      i++
+    } //fine ciclo
+  if (primo == 1){
+    puts("Il numero è primo");
+  }else{
+    puts("Il numero non è primo");
+  }
+}
+
+/*main:
+  
   primo = vero
   finche condizione
     se numero%i == 0
@@ -12,3 +37,4 @@ main:
       esci
     altrimenti
       i = i+1
+*/
