@@ -8,7 +8,7 @@ int main (){
   
   if (intero < 2){
     puts("Numero non valido");
-    exit -1;
+    return -1;
   }
   
   int i=2; //contatore
@@ -19,7 +19,7 @@ int main (){
       puts("Il numero non è primo");
       break;
     } else
-      i++
+      i++;
     } //fine ciclo
   if (primo == 1){
     puts("Il numero è primo");
