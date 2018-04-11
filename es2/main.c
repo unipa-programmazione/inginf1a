@@ -31,4 +31,6 @@ int main() {
     else {
         puts("Il numero non è primo");
     }
+//non ci dovrebbe essere il return 0? vabbe sticazzi io ce lo metto 
+ return 0;
 }
